@@ -40,8 +40,8 @@ class InstagramMessenger:
             ])
             # Add a default account
             default_account = {
-                'username': 'jestorshaunak',
-                'password': '26314921*bubu',
+                'username': ' ',
+                'password': ' ',
                 'message_template': 'Hi! I love your work and would like to connect.',
                 'min_followers': 1000,
                 'max_followers': 50000,

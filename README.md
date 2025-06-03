@@ -78,7 +78,7 @@ python instagram_messenger_login.py
 ## 💻 Usage
 
 1. **Launch the Application**
-   - Run `instagram_messenger_login.py`
+   - Run `shaunbot.py`
    - The main window will appear with login options
 
 2. **Account Setup**

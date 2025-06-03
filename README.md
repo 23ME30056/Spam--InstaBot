@@ -1,7 +1,7 @@
-# 🤖 Instagram Messenger Automation Tool
+# 🤖 Instagram Messenger Automation Tool (Spam--InstaBot)
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python Version">
+  <img src="https://img.shields.io/badge/Python-3.9-blue" alt="Python Version">
   <img src="https://img.shields.io/badge/Status-Active-success" alt="Status">
   <img src="https://img.shields.io/badge/License-MIT-yellow" alt="License">
 </div>
@@ -40,10 +40,10 @@ A powerful and user-friendly Instagram automation tool that helps you connect wi
 
 ## 🛠️ Technical Stack
 
-- **Python 3.8+**
+- **Python 3.9**
 - **Tkinter** - GUI Framework
 - **Pandas** - Data Management
-- **Instagrapi** - Instagram API Integration
+- **Instagrapi 1.17.20** - Instagram API Integration
 - **CSV** - Data Storage
 
 ## 📋 Prerequisites
@@ -53,16 +53,17 @@ pip install -r requirements.txt
 ```
 
 Required packages:
-- pandas
-- instagrapi
+- pandas>=1.3.0
+- instagrapi==1.17.20
+- pyinstaller>=5.0.0
 - tkinter (usually comes with Python)
 
 ## 🚀 Installation
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/instagram-messenger.git
-cd instagram-messenger
+git clone https://github.com/23ME30056/Spam--InstaBot.git
+cd Spam--InstaBot
 ```
 
 2. Install dependencies:
@@ -72,7 +73,7 @@ pip install -r requirements.txt
 
 3. Run the application:
 ```bash
-python instagram_messenger_login.py
+python shaunbot.py
 ```
 
 ## 💻 Usage
@@ -96,7 +97,7 @@ python instagram_messenger_login.py
 
 The tool maintains two CSV files:
 - `insta_accounts.csv`: Stores account credentials and settings
-- `messaged_accounts.csv`: Tracks messaging history and results
+- `messaged_instagram_accounts.csv`: Tracks messaging history and results
 
 ## ⚠️ Important Notes
 
@@ -123,7 +124,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## 📝 License
 
-This project is licensed under the Apache 2.0 License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## ⚠️ Disclaimer
 
@@ -132,10 +133,9 @@ This tool is for educational purposes only. Users are responsible for complying 
 ---
 
 <div align="center">
-  Made with ❤️ by Shaunak
+  Made with ❤️ by SHAUNY-BOY
   
-  [![GitHub followers] (https://github.com/23ME30056)
-
+  [![GitHub followers](https://img.shields.io/github/followers/23ME30056?label=Follow&style=social)](https://github.com/23ME30056)
 </div>
 
 ---
